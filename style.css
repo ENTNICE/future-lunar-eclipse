@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Header Section */
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header .tagline {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Event Details Section */
+.event-details {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.event-details h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.event-details p {
+    font-size: 18px;
+}
+
+/* Image Section */
+.image-section img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Call to Action Section */
+.cta {
+    margin: 30px 0;
+}
+
+.learn-more-button, .watch-live-button {
+    padding: 15px 30px;
+    background-color: #0077b6;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 10px;
+    display: inline-block;
+}
+
+.learn-more-button:hover, .watch-live-button:hover {
+    background-color: #005f8c;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer .social-links a {
+    color: #0077b6;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
